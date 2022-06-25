@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+
+:root {
+    --primary-color: #7c3aed;
+}
+
+body {
+    font-family: 'Joan',
+        serif;
+}
+
+.container {
+    /** padding-left: 1rem;
+    padding-right: 1rem;**/
+    padding: 0rem 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+/** links **/
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.primary-link {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white
+}
+
+.secondary-link {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 2px solid var(--primary-color);
+}
