@@ -138,6 +138,10 @@ This aslo not done
     color: white;
 }
 
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large/;
+}
 .footer .ul {
     padding-inline-start: 0px;
 }
