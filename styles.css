@@ -11,6 +11,7 @@ body {
         serif;
         margin: 0px;
 }
+
 hr {
     margin: 2rem 0rem;
 }
@@ -143,5 +144,5 @@ This aslo not done
     font-size: large;
 }
 .footer .ul {
-    padding-inline-start: 0px;
+    padding-inline-start: 1px;
 }
