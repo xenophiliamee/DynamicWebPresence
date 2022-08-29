@@ -52,7 +52,7 @@ hr {
 
 .list-item-inline {
     display: inline;
-    padding: 0rem 0.4rem;
+    padding: 0rem 0.7rem;
 }
 /**Navigation**/
 .Natvigation {
@@ -142,6 +142,7 @@ This aslo not done
     text-align: center;
     color: white;
     border-top-right-radius: 2rem;
+    width: 100%;
 }
 
 .footer .link {
