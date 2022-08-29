@@ -60,6 +60,7 @@ hr {
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 2rem;
+    width: 100%;
 }
 
 .Natvigation .Nav-Brand {
