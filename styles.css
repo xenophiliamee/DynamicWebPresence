@@ -124,6 +124,14 @@ This aslo not done
 .of {
     background-color: var(--off-white-colour);
 }
+.video-list {
+    position: absolute;
+}
+
+.video-list.place {
+    position: absolute;
+    ;
+}
 
 /**Footer**/
 
@@ -140,6 +148,7 @@ This aslo not done
 }
 
 .footer .footer-header {
+    position: relative;
     font-weight: bold;
     font-size: large;
 }
