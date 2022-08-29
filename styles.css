@@ -60,7 +60,6 @@ hr {
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 2rem;
-    width: 100%;
 }
 
 .Natvigation .Nav-Brand {
@@ -142,7 +141,6 @@ This aslo not done
     text-align: center;
     color: white;
     border-top-right-radius: 2rem;
-    width: 100%;
 }
 
 .footer .link {
