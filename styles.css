@@ -58,7 +58,7 @@ hr {
 .Natvigation {
     background-color: var(--primary-color);
     color: white;
-    padding: 1rem;
+    padding: 0rem;
     border-bottom-left-radius: 2rem;
 }
 
