@@ -4,6 +4,7 @@
     --primary-color: #7c3aed;
     --Dark_grey-colour: #525252;
         --off-white-colour: #f3f4f6;
+        --perple: #8e44ad;
 }
 
 body {
@@ -154,4 +155,35 @@ This aslo not done
 }
 .footer .ul {
     padding-inline-start: 1px;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.cont .head {
+    font-size: 3rem;
+    margin: 2rem 0;
+    text-transform: capitalize;
+    color: var(--perple);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2rem;
+    text-align: center;
+    text-shadow: 0 .3rem .5rem rgba(0, 0, 0, .5);
+}
+
+.vid-cont {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.vid-cont .vid {
+    height: 15rem;
+    width: 25rem;
+    margin: 2rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .5);
+    overflow: hidden;
+    border-radius: 1rem;
+
 }
