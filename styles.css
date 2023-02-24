@@ -3,7 +3,7 @@
 :root {
     --primary-color: #7c3aed;
     --Dark_grey-colour: #525252;
-        --off-white-colour: #f3f4f6;
+        --off-white-colour: #e9f5b2;
         --perple: #8e44ad;
 }
 
@@ -66,6 +66,8 @@ hr {
 .Natvigation .Nav-Brand {
     font-weight: bold;
     font-size: 1.1rem;
+    float: left;
+        text-align: left;
 }
 
 /** try to change color of nav tag in list item (links)
@@ -158,7 +160,7 @@ This aslo not done
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 99.5%;
 }
 
 .cont .hea {
@@ -186,4 +188,60 @@ html {
     overflow: hidden;
     border-radius: 1rem;
 
+}
+.center {
+    text-align: center;
+}
+
+.img {
+    border-radius: 80%;
+}
+
+.circular_image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: blue;
+    /* commented for demo
+    float: left;
+    margin-left: 125px;
+    margin-top: 20px;
+    */
+
+    /*for demo*/
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.circular_image img {
+    width: 100%;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+
+    .topnav a,
+    .topnav input[type=text] {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+
+    .topnav input[type=text] {
+        border: 1px solid #ccc;
+    }
 }
